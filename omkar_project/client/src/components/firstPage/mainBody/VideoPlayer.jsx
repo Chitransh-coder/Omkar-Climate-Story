@@ -30,25 +30,8 @@ const VideoPlayer = ({ src }) => {
 
   return (
     <div className="container">
-      <div className="video-slogan-wrapper">
-        <div className="video-container">
-          {error ? (
-            <div className="error-message">{error}</div>
-          ) : (
-            <>
-              <video
-                ref={videoRef}
-                src={srce}
-                onClick={togglePlay}
-                onError={handleVideoError}
-                playsInline
-              />
-              <button className="play-pause-btn" onClick={togglePlay}>
-                {isPlaying ? "❚❚" : "▶"}
-              </button>
-            </>
-          )}
-        </div>
+      <div className="video-slogan-wrapper home-heading">
+  
         {/* <Globe /> */}
         <div className="slogan-container">
           <h1>
@@ -59,6 +42,7 @@ const VideoPlayer = ({ src }) => {
       </div>
       {/* <Globe /> */}
       <style jsx>{`
+
         .container {
           //   width: 100%;
           max-width: 1200px;
@@ -123,6 +107,14 @@ const VideoPlayer = ({ src }) => {
           //   text-align: center;
           line-height: 1.4;
         }
+.home-heading {
+  margin-top: 100px;
+  margin-left: 10vh;
+  margin-right: 5vh;
+  font-weight: 700; /* Corrected from 'weight' to 'font-weight' */
+  font-size: 2rem;
+ 
+}
         .error-message {
           color: #ff4444;
           text-align: center;
