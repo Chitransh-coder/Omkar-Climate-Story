@@ -12,11 +12,11 @@ const Navbar = () => {
             {/* <Globe /> */}
           </a>
         </div>
-        <div className="navbar-signin">
+        {/* <div className="navbar-signin">
           <a href="/signin" className="signin-button">
             Sign In
           </a>
-        </div>
+        </div> */}
       </div>
       <style jsx>{`
         .navbar {
@@ -30,7 +30,7 @@ const Navbar = () => {
         }
         .navbar-container {
           display: flex;
-          justify-content: space-between;
+          justify-content: left;
           align-items: center;
           padding: 1rem 2rem;
           max-width: 1200px;
