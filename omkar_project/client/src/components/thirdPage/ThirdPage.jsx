@@ -1,6 +1,6 @@
 import React from "react";
 // import styles from "./ThirdPage.module.css"
-import hh from "../../assets/p1.png";
+import hh from "../../assets/methane.jpg";
 const ThirdPage = () => {
   const cardData = [
     {

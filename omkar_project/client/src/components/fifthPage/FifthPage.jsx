@@ -1,6 +1,6 @@
 import React from "react";
 // import styles from "./secondpage.module.css"
-import hh from "../../assets/p1.png";
+import hh from "../../assets/N2O.jpg";
 import h from "../../assets/map.png";
 const FifthPage = () => {
   const cardData = [
@@ -160,15 +160,15 @@ const FifthPage = () => {
           font-size: 1rem;
           line-height: 1.5;
         }
-        // .main {
-        //   width: 100%;
-        //   display: flex;
-        //   flex-direction: column-reverse;
-        //   align-items: centre;
-        //   justify-content: space-between;
-        //   padding: 20px;
-        //   gap: 1.5rem;
-        // }
+        .main {
+          width: 100%;
+          display: flex;
+          flex-direction: column-reverse;
+          align-items: centre;
+          justify-content: space-between;
+          padding: 20px;
+          gap: 1.5rem;
+        }
         @media screen and (max-width: 600px) {
           .timeline::after {
             left: 31px;

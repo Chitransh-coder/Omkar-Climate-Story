@@ -1,5 +1,5 @@
 import React from "react";
-import hh from "../../assets/p1.png";
+import hh from "../../assets/waterVapour.jpg";
 import h from "../../assets/map.png";
 
 const FourthPage = () => {
