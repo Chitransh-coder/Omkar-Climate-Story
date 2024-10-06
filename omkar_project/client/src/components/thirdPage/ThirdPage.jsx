@@ -10,27 +10,27 @@ const ThirdPage = () => {
       color: "#FF6B6B",
     },
     {
-      title: "Pros of CO2 in atmosphere",
+      title: "Pros of Methane in atmosphere",
       content:
-        "CO2 is essential for photosynthesis in plants, helping to regulate Earth's temperature through the greenhouse effect, and is used in various industrial processes.",
+        "It's a cleaner-burning fuel compared to coal and oil, producing less CO2 per unit of energy.Methane can be captured from waste sources (like landfills) and used as renewable energy.It plays a role in atmospheric chemistry, influencing the formation and destruction of other gases.",
       color: "#4ECDC4",
     },
     {
-      title: "Causes of CO2",
+      title: "Causes of CH4",
       content:
-        "Major sources of CO2 include burning fossil fuels, deforestation, land-use changes, and industrial processes. Natural sources include volcanoes, ocean release, and respiration.",
+        "Natural sources: Wetlands, termites, and geological seeps.Human-made sources: Livestock farming (enteric fermentation), rice cultivation, landfills, wastewater treatment, and fossil fuel extraction and distribution.",
       color: "#45B7D1",
     },
     {
-      title: "Consequences of increase in CO2",
+      title: "Consequences of increase in CH4",
       content:
-        "Rising CO2 levels contribute to global warming, ocean acidification, changes in vegetation patterns, and potential impacts on human health and food security.",
+        "Methane is a potent greenhouse gas, with a global warming potential 28-36 times that of CO2 over 100 years.It contributes to the formation of ground-level ozone, which can harm human health and crop yields.Rapid methane increases can lead to more abrupt climate changes compared to CO2.",
       color: "#F7B267",
     },
     {
-      title: "Sustainability of CO2",
+      title: "Sustainability of CH4",
       content:
-        "Achieving sustainable CO2 levels involves reducing emissions through renewable energy adoption, improving energy efficiency, reforestation, and developing carbon capture technologies.",
+        "Improving waste management practices to capture methane from landfills and wastewater treatment.Implementing better practices in agriculture, particularly in rice cultivation and livestock management.Reducing leaks from natural gas infrastructure and oil wells.Developing technologies to capture and use methane as a clean energy source.Exploring innovative solutions like feeding seaweed to cattle to reduce their methane emissions.",
       color: "#6A0572",
     },
   ];

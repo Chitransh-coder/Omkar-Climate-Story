@@ -13,13 +13,17 @@ export default function GasCard() {
 
       } else if (name == "Water Vapor") {
         // alert("You clicked on Water Vapor!");
+
         window.location.href = "/water-vapor";
+
 
       } else if (name == "Nitrous Oxide (N₂O)") {
       //   alert("You clicked on Nitrous Oxide (N₂O)!");
       window.location.href = "/nitrous-oxide";
       } else if (name == "Chlorofluorocarbons (CFCs)") {
       //   alert("You clicked on Chlorofluorocarbons (CFCs)!");
+      window.location.href = "/chlorofluorocarbon";
+
       }
     };
     return (
