@@ -5,8 +5,11 @@ import Signin from "./components/authenticate/Signin";
 import Footer from "./components/firstPage/footer/Footer";
 import SecondPage from "./components/secondPage/SecondPage";
 import ThirdPage from "./components/thirdPage/ThirdPage";
+
 import FinalPage from "./components/finalpage/FinalPage";
 import SixthPage from "./components/sixthPage/SixthPage";
+import FourthPage from "./components/fourthPage/FourthPage";
+import FifthPage from "./components/fifthPage/FifthPage";
 function App() {
   return (
     <>
@@ -16,8 +19,11 @@ function App() {
           <Route path="/signin" element={<Signin/>}></Route>
           <Route path="/co2" element={<SecondPage/>}></Route>
           <Route path="/methane" element={<ThirdPage/>}></Route>
+
           <Route path="/mapping" element={<FinalPage/>}></Route>
           <Route path="/chlorofluorocarbon" element={<SixthPage/>}></Route>
+          <Route path="/water-vapor" element={<FourthPage />}></Route>
+          <Route path="/nitrous-oxide" element={<FifthPage />}></Route>
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
