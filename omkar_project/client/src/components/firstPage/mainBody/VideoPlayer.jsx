@@ -106,9 +106,11 @@ const VideoPlayer = ({ src }) => {
           //   color: #fff;
           //   text-align: center;
           line-height: 1.4;
+          margin-top: 0%;
+          
         }
 .home-heading {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 10vh;
   margin-right: 5vh;
   font-weight: 700; /* Corrected from 'weight' to 'font-weight' */
