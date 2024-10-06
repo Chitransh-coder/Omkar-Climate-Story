@@ -70,9 +70,10 @@ const ThirdPage = () => {
           display: flex;
           justify-content: center;
           margin-bottom: 1rem;
+          width: 100%;
         }
         .image-container img {
-          max-width: 100%;
+          width: 60%;
           height: auto;
           border-radius: 8px;
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -140,6 +141,10 @@ const ThirdPage = () => {
           // text-decoration: bright;
           font-weight: 800;
           font-size: 20px;
+          // background-color: #333;
+          // width: 100%;
+          // margin: 0;
+          // align-item: center;
         }
         .card-content h2 {
           font-size: 1.5rem;
@@ -152,9 +157,11 @@ const ThirdPage = () => {
         .main {
           width: 100%;
           display: flex;
-          flex-direction: row;
+          flex-direction: column-reverse;
           align-items: centre;
           justify-content: space-between;
+          padding: 20px;
+          gap: 1.5rem;
         }
         @media screen and (max-width: 600px) {
           .timeline::after {
@@ -175,6 +182,9 @@ const ThirdPage = () => {
           .right {
             left: 0%;
           }
+        }
+        .imgg:hover {
+          cursor: pointer;
         }
       `}</style>
 
