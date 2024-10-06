@@ -34,16 +34,80 @@ const VideoPlayer = ({ src }) => {
   
         {/* <Globe /> */}
         <div className="slogan-container">
-          <h1>
+          {/* <h1>
             " From Arctic ice to tropical reefs, our climate stories unfold "
-          </h1>
+          </h1> */}
+
+
+          <div id="test3"> " From Arctic ice to tropical reefs, our climate stories unfold "
+</div>
+
+
           <h2> Explore the climatic condition with us</h2>
         </div>
       </div>
       {/* <Globe /> */}
       <style jsx>{`
 
+
+#test3 {
+  // margin-left: 50px;
+  font-size: 40px;
+  font-weight: 700;
+
+  background: linear-gradient(90deg, hsla(181, 96%, 53%, 1) 0%, hsla(240, 43%, 65%, 1) 15%, hsla(300, 82%, 80%, 1) 31%, hsla(337, 76%, 61%, 1) 51%, hsla(50, 100%, 50%, 1) 71%, hsla(314, 78%, 70%, 1) 86%, hsla(300, 82%, 80%, 1) 100%);
+  background-clip: text;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: transparent;
+  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all;
+}
+
+#test3::before {
+  position: absolute;
+  background: linear-gradient(90deg, hsla(181, 96%, 53%, 1) 0%, hsla(240, 43%, 65%, 1) 15%, hsla(300, 82%, 80%, 1) 31%, hsla(337, 76%, 61%, 1) 51%, hsla(50, 100%, 50%, 1) 71%, hsla(314, 78%, 70%, 1) 86%, hsla(300, 82%, 80%, 1) 100%);
+
+  content: "From Arctic ice to tropical reefs, our climate stories unfold "
+;
+  background-clip: text;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: transparent;
+
+
+  font-weight: 900;
+  opacity: 0%;      
+  animation: popout 2s infinite 1s;
+  
+}
+
+@keyframes popout {
+  0% {
+    font-size: 40px;
+    opacity: 100%;
+  }
+
+  50% {
+    font-size: 41px;
+    
+    opacity: 5%;
+  }
+
+  100% {
+     font-size: 42px;
+    
+    opacity: 5%;   
+
+}
+
         .container {
+
           //   width: 100%;
           max-width: 1200px;
           margin: 60px auto;
