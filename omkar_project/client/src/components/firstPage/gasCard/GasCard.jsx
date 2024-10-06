@@ -1,5 +1,10 @@
 import React from "react";
 // import Card from "./Card";
+import one from "../../../assets/methane.jpg"
+import two from "../../../assets/N2O.jpg"
+import three from "../../../assets/ozone.jpg"
+import four from "../../../assets/waterVapour.jpg"
+
 import hh from "../../../assets/p1.png";
 export default function GasCard() {
   
@@ -49,28 +54,28 @@ export default function GasCard() {
     {
       id: 2,
       name: "Methane (CH₄)",
-      imageUrl: "/api/placeholder/400/300",
+      imageUrl: one,
       description:
         "Methane is potent but less abundant than CO₂. It comes from livestock, rice paddies, landfills, and natural gas production. It absorbs infrared radiation, amplifying the greenhouse effect.",
     },
     {
       id: 3,
       name: "Water Vapor",
-      imageUrl: "/api/placeholder/400/300",
+      imageUrl: four,
       description:
         "Although not directly emitted by human activity, water vapor is a crucial greenhouse gas. It reacts to temperature changes and acts as a “feedback,” enhancing the warming effect caused by other greenhouse gases.",
     },
     {
       id: 4,
       name: "Nitrous Oxide (N₂O)",
-      imageUrl: "/api/placeholder/400/300",
+      imageUrl: two,
       description:
         "N₂O comes from agricultural practices, industrial processes, and fossil fuel combustion. It's about 300 times more effective at trapping heat than CO₂ over a century.",
     },
     {
       id: 5,
       name: "Chlorofluorocarbons (CFCs)",
-      imageUrl: "/api/placeholder/400/300",
+      imageUrl: three,
       description:
         "CFCs were once used in refrigeration, aerosols, and solvents. Although their atmospheric concentration is low, they're incredibly efficient at trapping heat. Their global warming potential can be thousands of times higher than CO₂, even though they're much less abundant.",
     },
