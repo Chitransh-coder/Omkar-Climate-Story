@@ -127,13 +127,13 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 
 import as5 from "../../assets/Humnoldt State University CH4.png"
 
-const CH4LineChart = () => {
+const Final = () => {
   // Manually input the CSV data for testing
  
 
   return (
     <>
-       <img src={as} alt="" />
+       {/* <img src={as} alt="" /> */}
 
     <img src={as5} alt="" />
     </>
@@ -141,4 +141,4 @@ const CH4LineChart = () => {
   );
 };
 
-export default CH4LineChart;
+export default Final;

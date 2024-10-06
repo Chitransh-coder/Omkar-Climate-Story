@@ -8,6 +8,7 @@ import FinalPage from "./components/finalpage/FinalPage";
 import SixthPage from "./components/sixthPage/SixthPage";
 import FourthPage from "./components/fourthPage/FourthPage";
 import FifthPage from "./components/fifthPage/FifthPage";
+import Final from "./components/final/Final";
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/chlorofluorocarbon" element={<SixthPage/>}></Route>
           <Route path="/water-vapor" element={<FourthPage />}></Route>
           <Route path="/nitrous-oxide" element={<FifthPage />}></Route>
+          <Route path="/mapping2" element={<Final />}></Route>
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>

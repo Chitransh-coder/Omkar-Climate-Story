@@ -1,6 +1,8 @@
 import React from "react";
 // import styles from "./ThirdPage.module.css"
 import hh from "../../assets/methane.jpg";
+import h from "../../assets/map.png";
+
 const ThirdPage = () => {
   const cardData = [
     {
@@ -34,6 +36,10 @@ const ThirdPage = () => {
       color: "#6A0572",
     },
   ];
+
+  const handleImage = () => {
+    window.location.href = "/mapping2";
+};
 
   return (
     <div className="container">
@@ -216,6 +222,15 @@ const ThirdPage = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div style={{ width: "100%", alignContent: "center" }}>
+        <img
+          className="imgg"
+          style={{ width: "100%" }}
+          src={h}
+          alt=""
+          onClick={handleImage}
+        />
       </div>
     </div>
   );
