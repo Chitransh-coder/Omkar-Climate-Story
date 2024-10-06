@@ -21,7 +21,7 @@ Welcome to the **Climate Change Storytelling Website**! This project is created 
   - [Chart.js](https://www.chartjs.org/) - For creating beautiful data visualizations.
 
 - **Deployment**: 
-  - [Vercel](https://vercel.com/) - Hosting our application for easy access.
+  - Github Pages - Hosting our application for easy access.
 
 ---
 
