@@ -1,5 +1,5 @@
 import React from "react";
-import hh from "../../assets/p1.png";
+import hh from "../../assets/ozone.jpg";
 
 const SixthPage = () => {
   const cardData = [
