@@ -124,7 +124,9 @@
 
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-
+import as from "../../assets/Mt.BachelorCO2.png"
+import as2 from "../../assets/Boulder explorerCO2.png"
+import as3 from "../../assets/Walnut grove CO2.png"
 const CH4LineChart = () => {
   // Manually input the CSV data for testing
   const data = [
@@ -137,6 +139,7 @@ const CH4LineChart = () => {
   ];
 
   return (
+    <>
     <ResponsiveContainer width="100%" height={400}>
       <LineChart data={data}>
         <CartesianGrid strokeDasharray="3 3" />
@@ -147,6 +150,11 @@ const CH4LineChart = () => {
         <Line type="monotone" dataKey="value" stroke="#8884d8" activeDot={{ r: 8 }} />
       </LineChart>
     </ResponsiveContainer>
+    <img src={as} alt="" />
+    <img src={as2} alt="" />
+    <img src={as3} alt="" />
+    </>
+
   );
 };
 
