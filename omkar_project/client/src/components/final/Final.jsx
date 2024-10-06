@@ -124,39 +124,17 @@
 
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import as from "../../assets/Mt.BachelorCO2.png"
-import as2 from "../../assets/Boulder explorerCO2.png"
-import as3 from "../../assets/Walnut grove CO2.png"
-import as4 from "../../assets/Beach Island CO2.png"
-import as5 from "../../assets/Humnoldt State University CO2.png"
+
+import as5 from "../../assets/Humnoldt State University CH4.png"
 
 const CH4LineChart = () => {
   // Manually input the CSV data for testing
-  const data = [
-    { year: 2014, value: 1896.45 },
-    { year: 2014, value: 1898.00 },
-    { year: 2014, value: 1924.05 },
-    { year: 2014, value: 1923.48 },
-    { year: 2014, value: 1919.68 },
-    // Add more data points here if needed
-  ];
+ 
 
   return (
     <>
-    <ResponsiveContainer width="100%" height={400}>
-      <LineChart data={data}>
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="year" name="Year" />
-        <YAxis dataKey="value" name="CH4 Value" />
-        <Tooltip />
-        <Legend />
-        <Line type="monotone" dataKey="value" stroke="#8884d8" activeDot={{ r: 8 }} />
-      </LineChart>
-    </ResponsiveContainer>
-    <img src={as} alt="" />
-    <img src={as2} alt="" />
-    <img src={as3} alt="" />
-    <img src={as4} alt="" />
+       <img src={as} alt="" />
+
     <img src={as5} alt="" />
     </>
 
