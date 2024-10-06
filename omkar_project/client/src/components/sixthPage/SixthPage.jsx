@@ -1,36 +1,36 @@
 import React from "react";
-// import styles from "./SixthPage.module.css"
 import hh from "../../assets/p1.png";
+
 const SixthPage = () => {
   const cardData = [
     {
-      title: "What is Chlorofluorocarbon",
+      title: "What are Chlorofluorocarbons (CFCs)",
       content:
-        "Methane (CH4) is a colorless, odorless gas composed of one carbon atom bonded to four hydrogen atoms. It is the simplest hydrocarbon and is highly flammable. Methane is the primary component of natural gas and is an important fuel source.",
+        "CFCs are synthetic compounds containing carbon, chlorine, and fluorine. They were commonly used in refrigeration, air conditioning, and aerosol propellants, but have since been phased out due to their harmful effects on the ozone layer.",
       color: "#FF6B6B",
     },
     {
-      title: "Pros of Methane in atmosphere",
+      title: "Pros of CFCs",
       content:
-        "It's a cleaner-burning fuel compared to coal and oil, producing less CO2 per unit of energy.Methane can be captured from waste sources (like landfills) and used as renewable energy.It plays a role in atmospheric chemistry, influencing the formation and destruction of other gases.",
+        "CFCs were widely used because they are non-flammable, non-toxic, and chemically stable. They played an important role in the development of refrigeration and air conditioning, improving food preservation and comfort.",
       color: "#4ECDC4",
     },
     {
-      title: "Causes of CH4",
+      title: "Causes of CFC Emissions",
       content:
-        "Natural sources: Wetlands, termites, and geological seeps.Human-made sources: Livestock farming (enteric fermentation), rice cultivation, landfills, wastewater treatment, and fossil fuel extraction and distribution.",
+        "CFCs are released into the atmosphere from leaking refrigerators, air conditioners, and aerosol cans. Once emitted, they rise into the stratosphere where they break down ozone molecules, leading to ozone depletion.",
       color: "#45B7D1",
     },
     {
-      title: "Consequences of increase in CH4",
+      title: "Consequences of CFCs",
       content:
-        "Methane is a potent greenhouse gas, with a global warming potential 28-36 times that of CO2 over 100 years.It contributes to the formation of ground-level ozone, which can harm human health and crop yields.Rapid methane increases can lead to more abrupt climate changes compared to CO2.",
+        "The depletion of the ozone layer due to CFCs increases the amount of harmful ultraviolet (UV) radiation reaching Earth. This can lead to higher rates of skin cancer, cataracts, and damage to ecosystems, including marine life.",
       color: "#F7B267",
     },
     {
-      title: "Sustainability of CH4",
+      title: "Sustainability & Alternatives to CFCs",
       content:
-        "Improving waste management practices to capture methane from landfills and wastewater treatment.Implementing better practices in agriculture, particularly in rice cultivation and livestock management.Reducing leaks from natural gas infrastructure and oil wells.Developing technologies to capture and use methane as a clean energy source.Exploring innovative solutions like feeding seaweed to cattle to reduce their methane emissions.",
+        "The Montreal Protocol was established to phase out the production and use of CFCs. Alternatives like Hydrofluorocarbons (HFCs) and Hydrochlorofluorocarbons (HCFCs) are now used, although they still pose environmental challenges.",
       color: "#6A0572",
     },
   ];
@@ -43,14 +43,12 @@ const SixthPage = () => {
           margin: 0;
           padding: 0;
           color: white;
-          //   width: 100%;
         }
         .container {
           max-width: 95%;
           margin: 0 auto;
           padding: 20px;
           font-family: Arial, sans-serif;
-          //   background-color;
         }
         .headd {
           width: 100%;
@@ -63,7 +61,6 @@ const SixthPage = () => {
           text-align: center;
           margin-bottom: 1rem;
           width: fit-content;
-          // animation: glow 1s ease-in-out infinite alternate;
         }
 
         .image-container {
@@ -138,13 +135,8 @@ const SixthPage = () => {
         }
         .main h2 {
           color: violet;
-          // text-decoration: bright;
           font-weight: 800;
           font-size: 20px;
-          // background-color: #333;
-          // width: 100%;
-          // margin: 0;
-          // align-item: center;
         }
         .card-content h2 {
           font-size: 1.5rem;
@@ -189,17 +181,15 @@ const SixthPage = () => {
       `}</style>
 
       <div className="headd">
-        <h1>ChloroFluorocarbon </h1>
+        <h1>Chlorofluorocarbons</h1>
       </div>
 
       <div className="main">
         <h2 className="description">
-          Methane is a powerful greenhouse gas and the main component of natural
-          gas. It plays a significant role in global climate change and energy
-          production.
+          CFCs are synthetic compounds once widely used in refrigeration and aerosols. Their harmful impact on the ozone layer has led to global efforts to phase them out.
         </h2>
         <div className="image-container">
-          <img className="im" src={hh} alt="Carbon dioxide molecule" />
+          <img className="im" src={hh} alt="CFC molecule" />
         </div>
       </div>
 

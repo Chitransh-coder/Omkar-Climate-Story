@@ -5,6 +5,7 @@ import two from "../../../assets/N2O.jpg"
 import three from "../../../assets/ozone.jpg"
 import four from "../../../assets/waterVapour.jpg"
 
+import hh from "../../../assets/p1.png";
 export default function GasCard() {
   
   function Card({name, imageUrl, description}) {
@@ -46,7 +47,7 @@ export default function GasCard() {
     {
       id: 1,
       name: "Carbon Dioxide (CO₂)",
-      imageUrl: "/api/placeholder/400/300",
+      imageUrl: hh,
       description:
         "CO₂ is the most well-known greenhouse gas. It's released primarily from burning fossil fuels (like coal, oil, and natural gas) and deforestation. CO₂ traps heat in the atmosphere, contributing significantly to global warming.",
     },
