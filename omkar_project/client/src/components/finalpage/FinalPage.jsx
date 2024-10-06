@@ -127,6 +127,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 import as from "../../assets/Mt.BachelorCO2.png"
 import as2 from "../../assets/Boulder explorerCO2.png"
 import as3 from "../../assets/Walnut grove CO2.png"
+import as4 from "../../assets/Beach Island CO2.png"
 const CH4LineChart = () => {
   // Manually input the CSV data for testing
   const data = [
@@ -153,6 +154,7 @@ const CH4LineChart = () => {
     <img src={as} alt="" />
     <img src={as2} alt="" />
     <img src={as3} alt="" />
+    <img src={as4} alt="" />
     </>
 
   );
